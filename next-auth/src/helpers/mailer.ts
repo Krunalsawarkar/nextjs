@@ -39,7 +39,7 @@ export const sendEmail = async ({ email, emailType, userId }: any) => {
       }
       or copy and paste the link below in your browser. <br> ${
         process.env.DOMAIN
-      }/verifyemail?token=${hashedToken}
+      }/verifyEmail?token=${hashedToken}
       </p>`,
     };
 
